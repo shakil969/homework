@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.microscope{
+    width: 100%;
+}
+.banner{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    /* background-color: #F4F4F4; */
+    margin: 0px 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.116)), url(./banner-bg.jpg);
+}
+.textarea{
+    background-color:white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-top: 10px ;
+    text-align: center;
+}
+.viwe{
+    width: 100%;   
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    color: white;
+    background-color: #19CE67;
+    padding: 5px 0px;
+    
+}
+.span{
+    color: #19CE67;
+}
+
+@media only screen and (max-width:600px) {
+     .banner{
+        display: grid;
+        grid-template-columns: auto auto;
+     }
+}
+
+@media only screen and (min-width:601px) and(max-width:800px) {
+    .banner{
+       display: grid;
+       grid-template-columns: auto auto auto;
+    }
+}
